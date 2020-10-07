@@ -12,6 +12,6 @@ or
 >Paste all three files in the same folder and run 
 >
 >> python3 audit.py
->
-####It will give a file name audit.csv
-#####Open it in google sheets, fill the remaining information/Edit if something is wrong(if) and download as xlsx 
+
+It will give a file name audit.csv
+Open it in google sheets, fill the remaining information/Edit if something is wrong(if) and download as xlsx 
