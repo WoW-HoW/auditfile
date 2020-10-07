@@ -4,7 +4,7 @@ import PyPDF2
 import csv
 pdfFileObj = open('Grade.pdf', 'rb') 
 pdfReader = PyPDF2.PdfFileReader(pdfFileObj)
-with open('17BLC.csv') as csv_file:
+with open('File.csv') as csv_file:
 	with open('audit_file.csv', mode='w') as audit_file:
 		writer = csv.writer(audit_file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
 		csv_reader = csv.reader(csv_file, delimiter=',')
